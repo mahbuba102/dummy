@@ -3,7 +3,7 @@ package com.cigna.avoidmethodoverriding;
 public class Base {
 
 	public final String version(){
-		where(); // This will call Base class where() method 
+		where(); // This will call Base class where()  
 		return "1.0.0";
 	}
 
