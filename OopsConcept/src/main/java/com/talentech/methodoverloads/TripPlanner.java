@@ -16,10 +16,11 @@ public class TripPlanner
         double tripToMexicoCost = 150.54;
         double tripToLVCost = 160.29;
         
-       // double totalcost = calculateRoundTripTotalCost (tripToMiamiCost,tripToLACost);
-        double totalcost = calculateRoundTripTotalCost (tripToMiamiCost,tripToLACost,tripToMexicoCost);
+        double totalcost2trip = calculateRoundTripTotalCost (tripToMiamiCost,tripToLACost);
+        double totalcost3trip = calculateRoundTripTotalCost (tripToMiamiCost,tripToLACost,tripToMexicoCost);
        // System.out.println(" Total Cost for 2- Destinations Trip : " + totalcost );
-        System.out.println(" Total Cost for 3 - Destination Trip : " + totalcost);
+        System.out.println(" Total Cost for 3 - Destination Trip : " + totalcost3trip);
+        System.out.println(" Total Cost for 3 - Destination Trip : " + totalcost3trip);
         
     }
 

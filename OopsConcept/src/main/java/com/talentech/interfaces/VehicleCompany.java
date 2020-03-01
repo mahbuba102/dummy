@@ -1,6 +1,8 @@
 package com.talentech.interfaces;
 
 public class VehicleCompany {
+	
+	
 
 	public static void main(String[] args) {
 		//Vehicle vehicle = new Vehicle (); // u cant instantitate an object of an interface since it's not a fully implemented class(not concrete) 
@@ -8,7 +10,7 @@ public class VehicleCompany {
 
 		vehicle.start();
 		vehicle.stop();
-		//System.out.println(vehicle.dummyversion);
+		System.out.println(vehicle.dummyversion);
 	}
 
 }
