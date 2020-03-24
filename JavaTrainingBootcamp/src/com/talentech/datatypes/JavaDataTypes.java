@@ -3,7 +3,7 @@ package com.talentech.datatypes;
 public class JavaDataTypes {
 
 
-
+   ///-----------main method-----------------------////
 	public static void main(String[] args) {
 
 
