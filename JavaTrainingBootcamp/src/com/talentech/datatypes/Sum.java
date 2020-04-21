@@ -12,6 +12,7 @@ public class Sum {
 			
 			
 			sum = sum+i;
+			//sum+=i;
 			
 			
 		}
