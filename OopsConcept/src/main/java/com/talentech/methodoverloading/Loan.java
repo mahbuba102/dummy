@@ -19,6 +19,7 @@ public class Loan {
 		this.salary = salary;
 		
 		System.out.println("inside second constructor");
+		//nothing
 	}
 	
 	public Loan(int creditscore, long salary,int age){
